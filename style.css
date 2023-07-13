@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Chela+One&display=swap');
+
+body{
+    font-family: 'Chela One', cursive;
+    background-image:url(https://1fid.com/wp-content/uploads/2021/10/papa_name_wallpaper_dp_image_3-scaled.jpg);
+}
+
+.container{
+    color:aliceblue;
+    display:flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    width: 100vw;
+    height:100vw;
+    padding:0 20px;
+    margin-left: 3em;
+}
+.logo{
+    font-size: 10em;
+    text-shadow:-5px -5px pink,
+    5px -5px 0 violet,
+    -2px 2px 0 violet,
+    -2px 2px 0 violet;
+}
+.button{
+background-color:balck;
+color: black;
+height: 70px;
+width:280px;
+border-radius: 40px;
+text-align: center;
+cursor:pointer;
+padding:10px 15px;
+font-size: 2cm;
+font-weight: 300;
+margin:30px 0;
+}
+input{
+    width:300px;
+    text-align: center;
+    font-size: 2em;
+    height: 2em;
+    margin-right: 100px;
+}
+
+#input-conatainer{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#submit{
+    margin: left 400px;
+}
+
+h1{
+    font-size:4em;
+}
+
+#message{
+    display:none;
+    color:pink;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+    align-items: center;
+}
+.won{
+    justify-content: center;
+}
+.win{
+    font-size: 150px;
+    color: blueviolet;
+}
+.loss{
+    justify-content: center;
+    
+}
+.lose{
+    font-size: 150px;
+    color: blueviolet;
+}
